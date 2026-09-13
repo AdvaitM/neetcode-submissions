@@ -1,0 +1,18 @@
+{
+  "name": "neetcode-test-harness",
+  "version": "1.0.0",
+  "description": "Test harness for NeetCode algorithm solutions",
+  "main": "test-harness.ts",
+  "scripts": {
+    "test": "npx ts-node test-harness.ts",
+    "test:watch": "npx ts-node --watch test-harness.ts"
+  },
+  "keywords": ["algorithms", "testing", "neetcode"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "ts-node": "^10.9.0",
+    "@types/node": "^20.0.0"
+  }
+}
